@@ -1,8 +1,141 @@
-/*
-Colors:
+body {
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
 
-*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header img { 
+   
+    height: 50px;
+    
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.section-1 {
+    height: 100vh;
+    background-image: url("../images/landing.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+
+}
+
+.center-text h1 {
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 0px;
+
+}
+.center-text h3 {
+    color: white;
+    font-weight: lighter;
+    font-size: 1.5rem;
+       
+
+}
+
+.section-2 {
+    height: 50vh;
+    text-align: center;
+}
+
+.section-2 h1 {
+    border-bottom: 3px solid #00B172;
+    display: inline-block;
+    margin-top: 5rem;
+    
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 90%;
+    align-items: center;
+}
+
+.card {
+    flex: 1;
+    text-align: center;
+    width: 200px;
+}
+.card img {
+    height: 70px;
+}
+
+.card h3 {
+    color:#00B172 ;
+}
+
+.card p {
+    color: #1A1A1A ;
+}
+
+.section-3 {
+    background-image: url("../images/spotify-icon-white.png");
+    height: 110vh;
+    background-color: #00B172;
+    background-position: center;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-3 h1 {
+    color: #FFF;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.section-3 p {
+    color: #FFF;
+}
+
+.section-3 h2 {
+    color: #FFF;
+}
+
+.text {
+    width: 300px;
+
+}
+
+.section-3 img {
+    height: 400px;
+}
